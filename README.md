@@ -13,9 +13,11 @@ A Discord bot that assigns a role to a user on their first message and removes i
 2. Open [src/config.js](https://github.com/peterthehan/discord-active-role-bot/blob/master/src/config.js) to configure your own settings:
 
 ```js
-roleDuration: 21600,
 guildRoleMap: {
-  'GUILD_ID': 'ROLE_ID',
+  'GUILD_ID': {
+    roleId: 'ROLE_ID',
+    roleDuration: 21600
+  },
   // ...Add as many guild-role mappings as you want.
 }
 ```

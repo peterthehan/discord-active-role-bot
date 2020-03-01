@@ -1,12 +1,12 @@
-const { guildRoleMap, roleDuration } = require('../config');
+const { guildRoleMap } = require('../config');
 const isValidMessage = require('../util/isValidMessage');
 
 module.exports = async message => {
   if (!isValidMessage(message)) return;
 
-  const roleId = guildRoleMap[message.guild.id];
   if (!(message.guild.id in guildRoleMap)) return;
 
+  const { roleId, roleDuration } = guildRoleMap[message.guild.id];
   if (message.member.roles.cache.has(roleId)) return;
 
   message.member.roles.add(roleId);
