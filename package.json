@@ -1,6 +1,6 @@
 {
   "name": "discord-active-role-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Discord bot that assigns a role to a user on their first message and removes it daily.",
   "keywords": [
     "discord",
@@ -19,15 +19,9 @@
     "email": "peter.han.9493@gmail.com",
     "url": "https://github.com/peterthehan"
   },
-  "bin": {
-    "active-role": "./src/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/peterthehan/discord-active-role-bot.git"
-  },
-  "scripts": {
-    "start": "node src/index.js"
   },
   "dependencies": {
     "discord.js": "github:discordjs/discord.js#master"
