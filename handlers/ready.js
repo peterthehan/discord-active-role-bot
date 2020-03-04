@@ -1,8 +1,7 @@
-const { name } = require('../../package');
 const { guildRoleMap } = require('../config');
 
 module.exports = async client => {
-  console.log(`${name}|${client.user.tag}: Ready`);
+  console.log('activeRole: ready');
 
   Object.keys(guildRoleMap)
     .map(guildId => client.guilds.resolve(guildId))
