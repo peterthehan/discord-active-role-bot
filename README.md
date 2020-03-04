@@ -24,8 +24,6 @@ guildRoleMap: {
 
 > `roleDuration` (in seconds) is how long the role is given to the member before it is removed.
 
-4. `npm start` to start the bot.
-
 Visit for more help or information!
 
 <a href="https://discord.gg/WjEFnzC">
