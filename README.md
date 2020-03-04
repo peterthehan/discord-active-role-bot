@@ -10,7 +10,7 @@ A Discord bot that assigns a role to a user on their first message and removes i
 
 2. Download this widget and move it into the `src/widgets` folder.
 
-3. Open [src/config.js](https://github.com/peterthehan/discord-active-role-bot/blob/master/src/config.js) to configure your own settings:
+3. Open [activeRole/config.js](https://github.com/peterthehan/discord-active-role-bot/blob/master/activeRole/config.js) to configure your own settings:
 
 ```js
 guildRoleMap: {
