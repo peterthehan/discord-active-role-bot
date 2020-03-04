@@ -4,7 +4,7 @@ A Discord bot that assigns a role to a user on their first message and removes i
 
 ## Setup
 
-1. Follow the instructions found in [create-discord-bot](https://github.com/peterthehan/create-discord-bot).
+1. Follow the instructions in [create-discord-bot](https://github.com/peterthehan/create-discord-bot).
 
 > Don't forget to give your bot the `Manage Roles` permission!
 
