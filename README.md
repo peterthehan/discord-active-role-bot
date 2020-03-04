@@ -6,11 +6,11 @@ A Discord bot that assigns a role to a user on their first message and removes i
 
 1. Follow the instructions found in [create-discord-bot](https://github.com/peterthehan/create-discord-bot).
 
-> Don't forget to give your bot the Manage Roles permission!
+> Don't forget to give your bot the `Manage Roles` permission!
 
-2. Download this widget and move it into the `src/widgets` folder.
+2. Download this widget and move it into the [src/widgets](https://github.com/peterthehan/create-discord-bot/blob/master/src/widgets/) folder.
 
-3. Open [activeRole/config.js](https://github.com/peterthehan/discord-active-role-bot/blob/master/activeRole/config.js) to configure your own settings:
+3. Open [config.js](https://github.com/peterthehan/discord-active-role-bot/blob/master/config.js) to configure your own settings:
 
 ```js
 guildRoleMap: {
