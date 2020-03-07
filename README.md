@@ -1,6 +1,6 @@
 # Discord Active Role Bot
 
-A Discord bot that assigns a role to a user on their first message and removes it daily.
+A Discord bot that assigns a role to a user on their first message and removes it after a fixed time.
 
 ## Setup
 
