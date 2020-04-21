@@ -10,5 +10,8 @@ module.exports = async message => {
   if (message.member.roles.cache.has(roleId)) return;
 
   message.member.roles.add(roleId);
-  setTimeout(() => message.member.roles.remove(roleId), roleDuration * 1000);
+  setTimeout(
+    () => message && message.member && message.member.roles.remove(roleId),
+    roleDuration * 1000
+  );
 };
