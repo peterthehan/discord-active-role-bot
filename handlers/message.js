@@ -1,7 +1,7 @@
-const { guildRoleMap } = require('../config');
-const isValidMessage = require('../util/isValidMessage');
+const { guildRoleMap } = require("../config");
+const isValidMessage = require("../util/isValidMessage");
 
-module.exports = async message => {
+module.exports = async (message) => {
   if (!isValidMessage(message)) return;
 
   if (!(message.guild.id in guildRoleMap)) return;

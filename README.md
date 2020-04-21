@@ -16,8 +16,8 @@ A Discord bot that assigns a role to a user on their first message and removes i
 
 ```js
 guildRoleMap: {
-  'GUILD_ID': {
-    roleId: 'ROLE_ID',
+  "GUILD_ID": {
+    roleId: "ROLE_ID",
     roleDuration: 28800
   },
   // ...Add as many guild-role mappings as you want.
