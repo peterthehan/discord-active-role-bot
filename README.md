@@ -4,6 +4,10 @@
 
 A Discord bot that assigns a role to a user on their first message and removes it after a fixed time.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/peterthehan/assets/master/repositories/discord-active-role-bot/activeRole.gif" />
+</div>
+
 ## Setup
 
 1. Follow the instructions in [create-discord-bot](https://github.com/peterthehan/create-discord-bot).
