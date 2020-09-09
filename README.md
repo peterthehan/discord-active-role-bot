@@ -29,7 +29,9 @@ A Discord bot that assigns a role to a user on their first message and removes i
 ]
 ```
 
-> `roleDuration` (in seconds) is how long the role is given to the member before it is removed.
+- `roleDuration` (in seconds) is how long the role is given to the member before it is removed.
+
+4. `npm start` to run the bot.
 
 Visit for more help or information!
 
