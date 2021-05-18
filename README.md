@@ -5,31 +5,37 @@
 A Discord bot that assigns a role to a user on their first message and removes it after a fixed time.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/peterthehan/assets/master/repositories/discord-active-role-bot/activeRole.gif" />
+  <img
+    src="https://raw.githubusercontent.com/peterthehan/discord-active-role-bot/master/assets/demo.gif"
+    alt="demo"
+  />
 </div>
 
 ## Setup
 
 1. Follow the instructions in [create-discord-bot](https://github.com/peterthehan/create-discord-bot).
 
-> Don't forget to give your bot the `Manage Roles` permission!
+   > Don't forget to give your bot the `Manage Roles` permission!
 
-2. Download this widget and add it into the [src/widgets](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder.
+2. Download this widget and move the `src-discord-active-role-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
 
 3. Open [config.json](https://github.com/peterthehan/discord-active-role-bot/blob/master/config.json) to configure your own settings:
 
-```js
-[
-  {
-    "guildId": "GUILD_ID",
-    "roleId": "ROLE_ID",
-    "roleDuration": 43200
-  },
-  // ...Add as many rules as you want.
-]
-```
+   ```json
+   [
+     {
+       "guildId": "258167954913361930",
+       "roleId": "682035618536095779",
+       "roleDuration": 43200
+     }
+   ]
+   ```
 
-- `roleDuration` (in seconds) is how long the role is given to the member before it is removed.
+   Add as many rules as you want to configure for other servers.
+
+   - `guildId` is your server id.
+   - `roleId` is the role to grant on activity.
+   - `roleDuration` (in seconds) is how long the role is given to the member before it is removed.
 
 4. `npm start` to run the bot.
 
