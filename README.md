@@ -19,7 +19,7 @@ A Discord bot that assigns a role to a user on their first message and removes i
 
 2. Download this widget and move the `src-discord-active-role-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
 
-3. Open [config.json](https://github.com/peterthehan/discord-active-role-bot/blob/master/config.json) to configure your own settings:
+3. Open [config.json](https://github.com/peterthehan/discord-active-role-bot/blob/master/src-discord-active-role-bot/config.json) to configure your own settings:
 
    ```json
    [
