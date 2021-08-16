@@ -1,5 +1,7 @@
+import { Snowflake } from "discord.js";
+
 export interface Config {
-  guildId: string;
-  roleId: string;
+  guildId: Snowflake;
+  roleId: Snowflake;
   roleDuration: number;
 }
