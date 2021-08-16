@@ -2,7 +2,7 @@ import { Guild, GuildMember, Message } from "discord.js";
 import { getConfig } from "../util/getConfig";
 
 module.exports = async (message: Message): Promise<void> => {
-  if (message.author.bot || message.channel.type !== "GUILD_TEXT") {
+  if (message.author.bot || message.channel.type === "DM") {
     return;
   }
 
