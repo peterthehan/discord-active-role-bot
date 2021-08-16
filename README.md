@@ -1,6 +1,6 @@
 # Discord Active Role Bot
 
-[![Discord](https://discordapp.com/api/guilds/258167954913361930/embed.png)](https://discord.gg/WjEFnzC) [![Twitter Follow](https://img.shields.io/twitter/follow/peterthehan.svg?style=social)](https://twitter.com/peterthehan)
+[![Discord](https://discord.com/api/guilds/258167954913361930/embed.png)](https://discord.gg/WjEFnzC) [![Twitter Follow](https://img.shields.io/twitter/follow/peterthehan.svg?style=social)](https://twitter.com/peterthehan)
 
 A Discord bot that assigns a role to a user when they send a message and removes it after a fixed time.
 
@@ -42,5 +42,5 @@ A Discord bot that assigns a role to a user when they send a message and removes
 Visit for more help or information!
 
 <a href="https://discord.gg/WjEFnzC">
-  <img src="https://discordapp.com/api/guilds/258167954913361930/embed.png?style=banner2" title="Discord Server"/>
+  <img src="https://discord.com/api/guilds/258167954913361930/embed.png?style=banner2" title="Discord Server"/>
 </a>
