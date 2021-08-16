@@ -17,9 +17,9 @@ A Discord bot that assigns a role to a user on their first message and removes i
 
    > Don't forget to give your bot the `Manage Roles` permission!
 
-2. Download this widget and move the `src-discord-active-role-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
+2. Download this bot and move the `src-discord-active-role-bot` folder into the [/src/bots](https://github.com/peterthehan/create-discord-bot/tree/master/src/bots) folder from step 1.
 
-3. Open [config.json](https://github.com/peterthehan/discord-active-role-bot/blob/master/src-discord-active-role-bot/config.json) to configure your own settings:
+3. Open [config.json](./src-discord-active-role-bot/config.json) to configure your own settings:
 
    ```json
    [
@@ -33,7 +33,7 @@ A Discord bot that assigns a role to a user on their first message and removes i
 
    Add as many rules as you want to configure for other servers.
 
-   - `guildId` is your server id.
+   - `guildId` is the server id.
    - `roleId` is the role to grant on activity.
    - `roleDuration` (in seconds) is how long the role is given to the member before it is removed.
 
