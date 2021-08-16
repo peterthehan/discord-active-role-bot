@@ -3,7 +3,7 @@ import configs from "../config.json";
 import { Config } from "../types";
 
 const configMap: Map<Snowflake, Config> = new Map();
-configs.forEach((config) => {
+(configs as Config[]).forEach((config) => {
   configMap.set(config.guildId, config);
 });
 
